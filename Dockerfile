@@ -1,5 +1,7 @@
 FROM node:12-alpine
-RUN npm install express
+COPY package.json .
 COPY main.js .
+COPY answer.html .
+RUN npm install
 EXPOSE 8080
 CMD [ "node", "main.js" ]

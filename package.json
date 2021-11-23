@@ -1,0 +1,13 @@
+{
+  "name": "mywords",
+  "version": "1.0.0",
+  "description": "Node.js on Docker for mywords",
+  "author": "Marc Riart <marc_riart@es.ibm.com>",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
