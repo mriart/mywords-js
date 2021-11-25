@@ -1,26 +1,13 @@
 var express = require('express');
 var app = express();
-var path = require('path');
-var PORT = 8080;
-var hostname = '0.0.0.0';
+var port = 8080;
 
-// Without middleware
-app.get('/', function(req, res){
-	var options = {
-		root: path.join(__dirname)
-	};
-	
-	var fileName = 'answer.html';
-	res.sendFile(fileName, options, function (err) {
-		if (err) {
-			console.log('Error:', err);
-		} else {
-			console.log('Sent:', fileName);
-		}
-	});
+app.set("view engine", "ejs");
+app.get ("/", function (req,res) {
+	res.render("answer.ejs", {quiz: "gosar", quizExample: "Com goses dir això", translation: "dare", sound: "dee", example: "How do you dare?"});	
 });
 
-app.listen(PORT, hostname, function(err){
+app.listen(port, function(err){
 	if (err) console.log(err);
-	console.log("Server listening on PORT", hostname, PORT);
-});
+	console.log("Server listening on port: ", port);
+})
