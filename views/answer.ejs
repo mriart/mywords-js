@@ -33,7 +33,6 @@ body {
   width: 100%;
   height: 100%;
   -webkit-backface-visibility: hidden;
-  -webkit-transition: -webkit-transform 1s;
   backface-visibility: hidden;
 }
 
@@ -51,19 +50,19 @@ body {
 </head>
 <body>
 
-<div class="flip-card">
-  <div class="flip-card-inner">
-    <div class="flip-card-front">
-        <h1><%= quiz %></h1> 
-        <p><%= quizExample %></p>         
+  <div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+          <h1><%= quiz %></h1> 
+          <p><%= quizExample %></p>         
+      </div>
+      <div class="flip-card-back">
+        <h1><%= translation %></h1> 
+        <p>/<%= sound %>/</p> 
+        <p><%= example %></p>
+      </div>
     </div>
-    <div class="flip-card-back">
-      <h1><%= translation %></h1> 
-      <p>/<%= sound %>/</p> 
-      <p><%= example %></p>
-    </div>
-  </div>
-</div>
+  </div>  
 
 </body>
 </html>
