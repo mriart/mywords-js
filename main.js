@@ -9,6 +9,7 @@ var debug = 1;
 //Return random card of mywords.txt, that is a line in array format
 function getRandomCard() {
 	var idx = Math.floor(Math.random() * myWordsLength);
+	if (debug == 1) console.log('idx: ', idx);
 	myCard = myWords[idx].split(":");
 	return myCard;
 }
@@ -17,7 +18,7 @@ function getRandomCard() {
 myWords = fs.readFileSync('./mywords.txt').toString().split('\n');
 myWords.pop();
 var myWordsLength = myWords.length;
-if (debug == 1) console.log('initialization:', myWords, myWordsLength);
+if (debug == 1) console.log('initialization myWords, myWordsLength:', myWords, myWordsLength);
 
 app.set("view engine", "ejs");
 app.get ("/", function (req,res) {
