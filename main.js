@@ -16,7 +16,7 @@ function getRandomCard() {
 //Initialize
 myWords = fs.readFileSync('./mywords.txt').toString().split('\n');
 myWords.pop();
-myWordsLength = myWords.length;
+var myWordsLength = myWords.length;
 if (debug == 1) console.log('initialization:', myWords, myWordsLength);
 
 app.set("view engine", "ejs");
