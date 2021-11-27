@@ -1,68 +1,97 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1", charset="UTF-8">
 <style>
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.flip-card {
-  background-color: transparent;
-  width: 300px;
-  height: 300px;
+label {
+  -webkit-perspective: 1000px;
   perspective: 1000px;
-}
-
-.flip-card-inner {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  transition: transform 0.6s;
+  -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-}
-
-.flip-card:hover .flip-card-inner {
-  transform: rotateY(180deg);
-}
-
-.flip-card-front, .flip-card-back {
+  display: block;
+  width: 300px;
+  height: 200px;
   position: absolute;
-  width: 100%;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+.card {
+  position: relative;
   height: 100%;
+  width: 100%;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-transition: all 600ms;
+  transition: all 600ms;
+  z-index: 20;
+}
+
+.card div {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: #bbb;
+  text-align: center;
+  line-height: 200px;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
+  border-radius: 2px;
 }
 
-.flip-card-front {
-  background-color: #bbb;
-  color: black;
+.card .back {
+  background: #2980b9;
+  color: #FFF;
+  -webkit-transform: rotateX(180deg);
+  transform: rotateX(180deg);
 }
 
-.flip-card-back {
-  background-color: #2980b9;
-  color: white;
-  transform: rotateY(180deg);
+label:hover .card {
+  -webkit-transform: rotateX(20deg);
+  transform: rotateX(20deg);
+  box-shadow: 0 20px 20px rgba(50, 50, 50, 0.2);
+}
+
+input {
+  display: none;
+}
+
+:checked + .card {
+  transform: rotateX(180deg);
+  -webkit-transform: rotateX(180deg);
+}
+
+label:hover :checked + .card {
+  transform: rotateX(160deg);
+  -webkit-transform: rotateX(160deg);
+  box-shadow: 0 20px 20px rgba(255, 255, 255, 0.2);
 }
 </style>
+  
 </head>
-<body>
 
-  <div class="flip-card">
-    <div class="flip-card-inner">
-      <div class="flip-card-front">
-          <h1><%= quiz %></h1> 
-          <p><%= quizExample %></p>         
-      </div>
-      <div class="flip-card-back">
-        <h1><%= translation %></h1> 
+<body>
+  <label>
+    <input type="checkbox"  />
+    <div class="card">
+        <div class="front">
+            <h1><%= quiz %></h1> 
+            <p><%= quizExample %></p>    
+        </div>
+    <div class="back">
+    <h1><%= translation %></h1> 
         <p>/<%= sound %>/</p> 
         <p><%= example %></p>
-      </div>
     </div>
-  </div>  
-
+    </div>
+</label>
 </body>
 </html>
