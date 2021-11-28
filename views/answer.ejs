@@ -1,68 +1,131 @@
+
 <!DOCTYPE html>
-<html>
+<html lang='en' class=''>
+
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
+<meta charset='UTF-8'>
+<title>My Words</title>
+
+<meta name="robots" content="noindex">
+
+<link rel="shortcut icon" type="image/x-icon" href="https://cpwebassets.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico">
+<link rel="mask-icon" href="https://cpwebassets.codepen.io/assets/favicon/logo-pin-8f3771b1072e3c38bd662872f6b673a722f4b3ca2421637d5596661b4e2132cc.svg" color="#111">
+<link rel="canonical" href="https://codepen.io/RuudBurger/pen/bwjry">
+
+<style class="INLINE_PEN_STYLESHEET_ID">
+    @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  background: #fff;
+  font-family: Open Sans;
+  font-size: 15px;
+  color: #222;
 }
 
-.flip-card {
-  background-color: transparent;
-  width: 300px;
-  height: 300px;
+label {
+  -webkit-perspective: 1000px;
   perspective: 1000px;
-}
-
-.flip-card-inner {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  transition: transform 0.6s;
+  -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-}
-
-.flip-card:hover .flip-card-inner {
-  transform: rotateY(180deg);
-}
-
-.flip-card-front, .flip-card-back {
+  display: block;
+  width: 300px;
+  height: 240px;
   position: absolute;
-  width: 100%;
+  left: 50%;
+  top: 20%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+.card {
+  position: relative;
   height: 100%;
+  width: 100%;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-transition: all 600ms;
+  transition: all 600ms;
+  z-index: 20;
+}
+
+.card div {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: #bbb;
+  text-align: center;
+  line-height: 20px;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
+  border-radius: 2px;
 }
 
-.flip-card-front {
-  background-color: #bbb;
-  color: black;
+.card .back {
+  background: #2980b9;
+  color: #FFF;
+  -webkit-transform: rotateX(180deg);
+  transform: rotateX(180deg);
 }
 
-.flip-card-back {
-  background-color: #2980b9;
-  color: white;
-  transform: rotateY(180deg);
+label:hover .card {
+  -webkit-transform: rotateX(20deg);
+  transform: rotateX(20deg);
+  box-shadow: 0 20px 20px rgba(50, 50, 50, 0.2);
 }
-</style>
+
+input {
+  display: none;
+}
+
+:checked + .card {
+  transform: rotateX(180deg);
+  -webkit-transform: rotateX(180deg);
+}
+
+label:hover :checked + .card {
+  transform: rotateX(160deg);
+  -webkit-transform: rotateX(160deg);
+  box-shadow: 0 20px 20px rgba(255, 255, 255, 0.2);
+}
+</style>  
 </head>
-<body>
 
-  <div class="flip-card">
-    <div class="flip-card-inner">
-      <div class="flip-card-front">
-          <h1><%= quiz %></h1> 
-          <p><%= quizExample %></p>         
+<body>
+  <label>
+    <input type="checkbox"  />
+    <div class="card">
+      <div class="front">
+        <h1><span id="q1"></span></h1>
+        <script>
+          let q1 = "empassar-se";
+          document.getElementById("q1").innerHTML = q1;
+        </script>
+        <br>
+        <p id=q2></p>
+        <script>
+          let q2 = "Em vaig haver d'empassar un gripau verd mot gran";
+          document.getElementById("q2").innerHTML = q2;
+        </script>
       </div>
-      <div class="flip-card-back">
-        <h1><%= translation %></h1> 
-        <p>/<%= sound %>/</p> 
-        <p><%= example %></p>
+      <div class="back">
+        <h1><span id="r1"></span></h1>
+        <script>
+          let r1 = "swallow";
+          document.getElementById("r1").innerHTML = r1;
+        </script>
+        <p id=r2></p>
+        <script>
+          let r2 = "/" + "swalou" + "/";
+          document.getElementById("r2").innerHTML = r2;
+        </script>
+        <br>
+        <p id=r3></p>
+        <script>
+          let r3 = "I had to swallow a frog";
+          document.getElementById("r3").innerHTML = r3;
+        </script>
       </div>
     </div>
-  </div>  
-
+  </label>
 </body>
 </html>
