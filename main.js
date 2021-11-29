@@ -1,10 +1,13 @@
+// Flash cards for learning english
+// MRS, 202111
+
 var express = require('express');
 var app = express();
 var port = 8080;
 var fs = require('fs');
 var myWords = [];
 var myCard = [];
-var debug = 1;
+var debug = 0;
 
 //Return random card of mywords.txt, that is a line in array format
 function getRandomCard() {

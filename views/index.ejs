@@ -63,6 +63,10 @@ label {
   transform: rotateX(180deg);
 }
 
+h1.big {
+  line-height: 35px;
+}
+
 input {
   display: none;
 }
@@ -85,15 +89,15 @@ label:hover :checked + .card {
     <input type="checkbox"  />
     <div class="card">
       <div class="front">
-        <h1>{{lit0}}</h1>
+        <h1 class="big"><%= lit0 %></h1>
         <br>
-        <p>{{lit1}}</p>
+        <p><%= lit1 %></p>
       </div>
       <div class="back">
-        <h1>{{lit2}}</h1>
-        <p>/{{lit3}}/</p>
+        <h1 class="big"><%= lit2 %></h1>
+        <p>/<%= lit3 %>/</p>
         <br>
-        <p>{{lit4}}</p>
+        <p><%= lit4 %></p>
       </div>
     </div>
   </label>
