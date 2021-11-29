@@ -16,7 +16,7 @@ function getRandomCard() {
 
 //Initialize
 myWords = fs.readFileSync('./mywords.txt').toString().split('\n');
-myWords.pop();
+myWords.pop(); //Removes last empty line
 var myWordsLength = myWords.length;
 if (debug == 1) console.log('initialization myWords, myWordsLength:', myWords, myWordsLength);
 
@@ -24,7 +24,7 @@ app.set("view engine", "ejs");
 app.get ("/", function (req,res) {
 	myCard = getRandomCard();
 	if (debug == 1) console.log('getRandomCard:', myCard);
-	res.render("answer.ejs", {quiz: myCard[0], quizExample: myCard[1], translation: myCard[2], sound: myCard[3], example: myCard[4]});	
+	res.render("index.ejs", {lit0: myCard[0], lit1: myCard[1], lit2: myCard[2], lit3: myCard[3], lit4: myCard[4]});	
 });
 
 app.listen(port, function(err){

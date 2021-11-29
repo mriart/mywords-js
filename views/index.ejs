@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang='en' class=''>
 
@@ -6,12 +5,8 @@
 <meta charset='UTF-8'>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex">
-
 <link rel="apple-touch-icon" sizes="128x128" href="/flashcards-png-icon.png">
 <title>My Words</title>
-<link rel="shortcut icon" type="image/x-icon" href="https://cpwebassets.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico">
-<link rel="mask-icon" href="https://cpwebassets.codepen.io/assets/favicon/logo-pin-8f3771b1072e3c38bd662872f6b673a722f4b3ca2421637d5596661b4e2132cc.svg" color="#111">
-<link rel="canonical" href="https://codepen.io/RuudBurger/pen/bwjry">
 
 <style class="INLINE_PEN_STYLESHEET_ID">
     @import url(https://fonts.googleapis.com/css?family=Open+Sans);
@@ -90,35 +85,15 @@ label:hover :checked + .card {
     <input type="checkbox"  />
     <div class="card">
       <div class="front">
-        <h1><span id="q1"></span></h1>
-        <script>
-          let q1 = "empassar-se";
-          document.getElementById("q1").innerHTML = q1;
-        </script>
+        <h1>{{lit0}}</h1>
         <br>
-        <p id=q2></p>
-        <script>
-          let q2 = "Em vaig haver d'empassar un gripau verd mot gran";
-          document.getElementById("q2").innerHTML = q2;
-        </script>
+        <p>{{lit1}}</p>
       </div>
       <div class="back">
-        <h1><span id="r1"></span></h1>
-        <script>
-          let r1 = "swallow";
-          document.getElementById("r1").innerHTML = r1;
-        </script>
-        <p id=r2></p>
-        <script>
-          let r2 = "/" + "swalou" + "/";
-          document.getElementById("r2").innerHTML = r2;
-        </script>
+        <h1>{{lit2}}</h1>
+        <p>/{{lit3}}/</p>
         <br>
-        <p id=r3></p>
-        <script>
-          let r3 = "I had to swallow a frog";
-          document.getElementById("r3").innerHTML = r3;
-        </script>
+        <p>{{lit4}}</p>
       </div>
     </div>
   </label>
