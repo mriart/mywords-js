@@ -6,3 +6,4 @@ veterinari::vet | veterinarian:vet:I am a vet that cures animals.
 empassar-se::swallow:swalou:She swallowed a cupcake slowly.
 fluix, que no apreta:Té una dent fluixa.:loose:ˈluːs:Not tightly fastened, attached, or held. A loose tooth.
 perdre::lose, lost, lost:ˈluːz, lost, lost:I lose my head.
+bordar (un gos)::bark:baak:The dog only barks when someone approaches the house.
