@@ -10,4 +10,4 @@ bordar (un gos)::bark:baak:The dog only barks when someone approaches the house.
 doblegar:El vent ha doblegat la branca de l'arbre.:bend, bent, bent:bend, bent, bent:The wind bent the long grass.
 barrejar, mixturejar::blend:blend:Mix (a substance) with another substance so that they combine together. To blend the milk with the chocolate.
 german::sibling:'sibling:Brother or sister.
-esforç::endeavour:ənˈdevər:Try hard to do or achieve something. He is endeavoring to help the Third World.
+intent, esforç, de canviar les coses:Un intent d'eliminar la malària.:endeavour:ənˈdevər:Try hard to do or achieve something. He is endeavoring to help the Third World.
