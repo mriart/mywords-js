@@ -9,13 +9,13 @@ var myWords = [];
 var myWordsRandom = [];
 var myCard = [];
 var idx;
-var debug = 0;
+var debug = 1;
 
 //Return random card of mywords.txt, that is a line in array format
 function getRandomCard() {
-	var idx = Math.floor(Math.random() * myWordsLength);
-	if (debug == 1) console.log('idx: ', idx);
-	myCard = myWords[idx].split(":");
+	var r = Math.floor(Math.random() * myWordsLength);
+	if (debug == 1) console.log('r: ', r);
+	myCard = myWords[r].split(":");
 	return myCard;
 }
 
@@ -23,7 +23,9 @@ function getRandomCard() {
 function getSeqCard() {
 	idx++;
 	if (idx == myWordsLength) idx = 0;
-	return myWordsRandom[idx];
+	if (debug == 1) console.log('idx: ', idx);
+	myCard = myWordsRandom[idx].split(":");
+	return myCard;
 }
 
 //Randomize an array
