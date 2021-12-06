@@ -9,7 +9,7 @@ var myWords = [];
 var myWordsRandom = [];
 var myCard = [];
 var idx;
-var debug = 1;
+var debug = 0;
 
 //Return random card of mywords.txt, that is a line in array format
 function getRandomCard() {
