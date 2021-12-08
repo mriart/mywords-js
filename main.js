@@ -24,7 +24,7 @@ function getSeqCard() {
 	idx++;
 	if (idx == myWordsLength) idx = 0;
 	if (debug == 1) console.log('idx: ', idx);
-	myCard = myWordsRandom[idx].split(":");
+	myCard = myWordsRandom[idx].split(";");
 	return myCard;
 }
 
