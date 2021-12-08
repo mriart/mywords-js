@@ -15,7 +15,7 @@ var debug = 0;
 function getRandomCard() {
 	var r = Math.floor(Math.random() * myWordsLength);
 	if (debug == 1) console.log('r: ', r);
-	myCard = myWords[r].split(":");
+	myCard = myWords[r].split(";");
 	return myCard;
 }
 

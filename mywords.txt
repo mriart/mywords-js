@@ -1,28 +1,28 @@
-gosar:Com goses dir-me això?:dare:ˈdeɚ:How do you dare?
-fortament enamorat, encapritxat::infatuated:ɪnˈfætʃəˌweɪtəd:Filled with foolish or very strong love or admiration. He was infatuated with his teacher.
-deure diners::owe:ˈoʊ:To need to pay or repay money to a person, bank, business, etc. I still owe money of the car.
-examinar, investigar a fons:Propostes per examinar les grans ofertes d'adquisició:vet, vetting:vet:Make a careful and critical examination of (something). Proposals for vetting large takeover bids.
-veterinari::vet | veterinarian:vet:I am a vet that cures animals.
-empassar-se::swallow:swalou:She swallowed a cupcake slowly.
-fluix, que no apreta:Té una dent fluixa.:loose:ˈluːs:Not tightly fastened, attached, or held. A loose tooth.
-perdre::lose, lost, lost:ˈluːz, lost, lost:I lose my head.
-bordar (un gos)::bark:baak:The dog only barks when someone approaches the house.
-doblegar:El vent ha doblegat la branca de l'arbre.:bend, bent, bent:bend, bent, bent:The wind bent the long grass.
-barrejar, mixturejar::blend:blend:Mix (a substance) with another substance so that they combine together. To blend the milk with the chocolate.
-germa o germana::sibling:'sibling:Brother or sister.
-intent, esforç, de canviar les coses:Un intent d'eliminar la malària.:endeavour:ənˈdevər:Try hard to do or achieve something. He is endeavoring to help the Third World.
-amortitzar::amortize:amortaiz: 
-eximir (de pagar una multa), exempció:He sigut eximit de pagar la multa:waive (v), waiver (n):ˈweivər:I have been waived from paying the fine.
-determinar quelcom::determine:dɪˈtəːmɪn:Cause (something) to occur in a particular way. It will be her mental attitude that determines her future.
-conquistar (en l'amor o similar):Guanyar-se la voluntat d’algú.:win over:win oʊvə:She won over me in love.
-sacsejada abrupta (en un avió p.ex.)::jolt (n, regular v):dʒəʊlt:He felt a jolt when the plane started to climb.
-penjar (un quadre)::hang, hung, hung:hang, hʌng, hʌng:He hangs a picture on the wall.
-tallar, esculpir::carve, carve out:kɑːv:Cut, sculpt (a hard material) in order to produce an object. Carve a sculpture.
-tinc enveja (sana)::I am envious | I have envy:ˈɛnvɪəs | ˈɛnvi:I am envious of your holidays.
-agulla::needle:ˈnidəl:To find a needle in a haystraw.
-palla::straw:stroo:A bed/pile of straw.
-suar::sweat:ˈswɛt:
-dolor:Tenir dolor, mal de cap.:ache:ˈeɪk:To have head ache.
-atracament::heist | robbery:haɪst | ˈrɒbəri:Money heist.
-robar:Robar diners.:steal:stiil:Johnny was accused of stealing from the shop.
-quedar-se quiet:(De peu encara):stand still:stænd stɪl:Please, stand still!
+gosar;Com goses dir-me això?;dare;ˈdeɚ;How do you dare?
+fortament enamorat, encapritxat;;infatuated;ɪnˈfætʃəˌweɪtəd;Filled with foolish or very strong love or admiration. He was infatuated with his teacher.
+deure diners;;owe;ˈoʊ;To need to pay or repay money to a person, bank, business, etc. I still owe money of the car.
+examinar, investigar a fons;Propostes per examinar les grans ofertes d'adquisició;vet, vetting;vet;Make a careful and critical examination of (something). Proposals for vetting large takeover bids.
+veterinari;;vet | veterinarian;vet;I am a vet that cures animals.
+empassar-se;;swallow;swalou;She swallowed a cupcake slowly.
+fluix, que no apreta;Té una dent fluixa.;loose;ˈluːs;Not tightly fastened, attached, or held. A loose tooth.
+perdre;;lose, lost, lost;ˈluːz, lost, lost;I lose my head.
+bordar (un gos);;bark;baak;The dog only barks when someone approaches the house.
+doblegar;El vent ha doblegat la branca de l'arbre.;bend, bent, bent;bend, bent, bent;The wind bent the long grass.
+barrejar, mixturejar;;blend;blend;Mix (a substance) with another substance so that they combine together. To blend the milk with the chocolate.
+germa o germana;;sibling;'sibling;Brother or sister.
+intent, esforç, de canviar les coses;Un intent d'eliminar la malària.;endeavour;ənˈdevər;Try hard to do or achieve something. He is endeavoring to help the Third World.
+amortitzar;;amortize;amortaiz; 
+eximir (de pagar una multa), exempció;He sigut eximit de pagar la multa;waive (v), waiver (n);ˈweivər;I have been waived from paying the fine.
+determinar quelcom;;determine;dɪˈtəːmɪn;Cause (something) to occur in a particular way. It will be her mental attitude that determines her future.
+conquistar (en l'amor o similar);Guanyar-se la voluntat d’algú.;win over;win oʊvə;She won over me in love.
+sacsejada abrupta (en un avió p.ex.);;jolt (n, regular v);dʒəʊlt;He felt a jolt when the plane started to climb.
+penjar (un quadre);;hang, hung, hung;hang, hʌng, hʌng;He hangs a picture on the wall.
+tallar, esculpir;;carve, carve out;kɑːv;Cut, sculpt (a hard material) in order to produce an object. Carve a sculpture.
+tinc enveja (sana);;I am envious | I have envy;ˈɛnvɪəs | ˈɛnvi;I am envious of your holidays.
+agulla;;needle;ˈnidəl;To find a needle in a haystraw.
+palla;;straw;stro:;A bed/pile of straw.
+suar;;sweat;ˈswɛt;
+dolor;Tenir dolor, mal de cap.;ache;ˈeɪk;To have head ache.
+atracament;;heist | robbery;haɪst | ˈrɒbəri;Money heist.
+robar;Robar diners.;steal, stole, stolen;sti:l;Johnny was accused of stealing from the shop.
+quedar-se quiet;(De peu, encara);stand still;stænd stɪl;Please, stand still!
