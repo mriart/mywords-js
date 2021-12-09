@@ -20,10 +20,11 @@ penjar (un quadre);;hang, hung, hung;hang, hʌng, hʌng;He hangs a picture on th
 tallar, esculpir;;carve, carve out;kɑːv;Cut, sculpt (a hard material) in order to produce an object. Carve a sculpture.
 tinc enveja (sana);;I am envious | I have envy;ˈɛnvɪəs | ˈɛnvi;I am envious of your holidays.
 agulla;;needle;ˈnidəl;To find a needle in a haystraw.
-palla;;straw;stro:;A bed/pile of straw.
+palla;;straw;stroː;A bed/pile of straw.
 suar;;sweat;ˈswɛt;
 dolor;Tenir dolor, mal de cap.;ache;ˈeɪk;To have head ache.
 atracament;;heist | robbery;haɪst | ˈrɒbəri;Money heist.
-robar;Robar diners.;steal, stole, stolen;sti:l;Johnny was accused of stealing from the shop.
+robar;Robar diners.;steal, stole, stolen;stiːl;Johnny was accused of stealing from the shop.
 quedar-se quiet;(De peu, encara);stand still;stænd stɪl;Please, stand still!
 aposta, apostar;;bet|waiger;bɛt|ˈweɪdʒə;The bet was that the loser would clean the house for a week.
+suspir;;sigh;saɪ;
