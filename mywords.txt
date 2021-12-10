@@ -26,5 +26,6 @@ dolor;Tenir dolor, mal de cap.;ache;ˈeɪk;To have head ache.
 atracament;;heist | robbery;haɪst | ˈrɒbəri;Money heist.
 robar;Robar diners.;steal, stole, stolen;stiːl;Johnny was accused of stealing from the shop.
 quedar-se quiet;(De peu, encara);stand still;stænd stɪl;Please, stand still!
-aposta, apostar;;bet|waiger;bɛt|ˈweɪdʒə;The bet was that the loser would clean the house for a week.
+aposta, apostar;;bet|wager;bɛt|ˈweɪdʒə;The bet was that the loser would clean the house for a week.
 suspir;;sigh;saɪ;
+peó (d'escacs);;pawn;po:n;Pawns are the lowest value pieces on a chess board.
