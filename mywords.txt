@@ -12,7 +12,7 @@ barrejar, mixturejar;;blend;blend;Mix (a substance) with another substance so th
 germa o germana;;sibling;'sibling;Brother or sister.
 intent, esforç, de canviar les coses;Un intent d'eliminar la malària.;endeavour;ənˈdevər;Try hard to do or achieve something. He is endeavoring to help the Third World.
 amortitzar;;amortize;amortaiz; 
-eximir (de pagar una multa), exempció;He sigut eximit de pagar la multa;waive (v), waiver (n);ˈweivər;I have been waived from paying the fine.
+eximir (de pagar una multa), exempció;He sigut eximit de pagar la multa.;waive (v), waiver (n);ˈweivər;I have been waived from paying the fine.
 determinar quelcom;;determine;dɪˈtəːmɪn;Cause (something) to occur in a particular way. It will be her mental attitude that determines her future.
 conquistar (en l'amor o similar);Guanyar-se la voluntat d’algú.;win over;win oʊvə;She won over me in love.
 sacsejada abrupta (en un avió p.ex.);;jolt (n, regular v);dʒəʊlt;He felt a jolt when the plane started to climb.
@@ -30,4 +30,6 @@ aposta, apostar;;bet|wager;bɛt|ˈweɪdʒə;The bet was that the loser would cle
 suspir;;sigh;saɪ;
 peó (d'escacs);;pawn;po:n;Pawns are the lowest value pieces on a chess board.
 mercaderia;Mercaderies en un vaixell de càrrega;freight;freit;Freight or goods in a cargo ship.
-enlluernat;Em vaig enlluernar amb la seva bellesa;dazzle;ˈdazəl;I was dazzled by her beauty.
+enlluernat;Em vaig enlluernar amb la seva bellesa.;dazzle;ˈdazəl;I was dazzled by her beauty.
+lio, desordre, follon;;muddle;ˈmʌdəl;	Who's responsible for this muddle of clothes on the floor?
+angústia;;distress;dɪˈstrɛs;A distress call.
