@@ -5,26 +5,18 @@ var express = require('express');
 var app = express();
 var port = 8080;
 var fs = require('fs');
+var file = [];
 var myWords = [];
-var myWordsRandom = [];
 var myCard = [];
 var idx;
-var debug = 0;
-
-//Return random card of mywords.txt, that is a line in array format
-function getRandomCard() {
-	var r = Math.floor(Math.random() * myWordsLength);
-	if (debug == 1) console.log('r: ', r);
-	myCard = myWords[r].split(";");
-	return myCard;
-}
+var debug = 1;
 
 //Return sequential card of mywords.txt
 function getSeqCard() {
 	idx++;
-	if (idx == myWordsLength) idx = 0;
+	if (idx == myWords.length) idx = 0;
 	if (debug == 1) console.log('idx: ', idx);
-	myCard = myWordsRandom[idx].split(";");
+	myCard = myWords[idx].split(";");
 	return myCard;
 }
 
@@ -46,16 +38,42 @@ function shuffle(array) {
 	return array;
   }
   
+//Insufle probabilities to array. The first 33% is normal, up to 66% double probabilities, the rest the triple.
+//That is because I want the latest entries in mywords.txt, appears more times in the quiz.
+function prob(array) {
+	var j = 0;
+	var arrayOut = [];
+	for (i=0; i<Math.floor(array.length/3); i++) {
+		arrayOut[j] = array[i];
+		j++;
+	}
+	for (i=Math.floor(array.length/3); i<Math.floor(array.length/3)*2; i++) {
+		arrayOut[j] = array[i]; 
+		j++;
+		arrayOut[j] = array[i];
+		j++;
+	}
+	for (i=Math.floor(array.length/3)*2; i<array.length; i++) {
+		arrayOut[j] = array[i]; 
+		j++;
+		arrayOut[j] = array[i];
+		j++;
+		arrayOut[j] = array[i];
+		j++;
+	}
+	return arrayOut;
+}
 
 //Initialize
-myWords = fs.readFileSync('./mywords.txt').toString().split('\n');
-myWords.pop(); //Removes last empty line
-var myWordsLength = myWords.length;
-if (debug == 1) console.log('initialization myWords, myWordsLength:', myWords, myWordsLength);
-var myWordsRandom = shuffle(myWords);
-if (debug == 1) console.log("myWordsRandom: ", myWordsRandom);
+file = fs.readFileSync('./mywords.txt').toString().split('\n');
+file.pop(); //Removes last empty line
+if (debug == 1) console.log('Load of mywords.txt, file:', file);
+myWords = shuffle(prob(file)); 
+if (debug == 1) console.log("myWords: ", myWords);
 idx = -1;
 
+
+//Express, for http requests
 app.set("view engine", "ejs");
 app.get ("/", function (req,res) {
 	myCard = getSeqCard();
@@ -64,6 +82,8 @@ app.get ("/", function (req,res) {
 	res.render("index.ejs", {lit0: myCard[0], lit1: myCard[1], lit2: myCard[2], lit3: myCard[3], lit4: myCard[4]});	
 });
 
+
+//Start server
 app.listen(port, function(err){
 	if (err) console.log(err);
 	console.log("Server listening on port: ", port);
