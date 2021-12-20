@@ -1,4 +1,4 @@
-gosar;Com goses dir-me això?;dare;ˈdeɚ;How do you dare?
+gosar;Com goses dir-me això?;dare;ˈdeə;How do you dare?
 fortament enamorat, encapritxat;;infatuated;ɪnˈfætʃəˌweɪtəd;Filled with foolish or very strong love or admiration. He was infatuated with his teacher.
 deure diners;;owe;ˈoʊ;To need to pay or repay money to a person, bank, business, etc. I still owe money of the car.
 examinar, investigar a fons;Propostes per examinar les grans ofertes d'adquisició;vet, vetting;vet;Make a careful and critical examination of (something). Proposals for vetting large takeover bids.
@@ -45,3 +45,5 @@ trinar (un moixonet);;trill;trɪl;The trill of a sparrow.
 pardal;;sparrow;sˈpæroʊ;Sparrow is a small bird.
 beguda fermentada (especialment cervesa), fermentar;;brew;bru;To brew means ‘to make a liquid by boiling and fermenting ingredients,’ mainly used referring to beer, ale.
 juerga, parranda;;spree;spri:The friends had a few days off work and went on a spree to the coast. Went on a shopping/spending/drinking spree. Killing spree (matança).
+crossa;;crutch;krʌtʃ;Peg Leg Joe threw his crutches away.
+niu;Niu de pardals;nest;nest;Sparrow nest.
