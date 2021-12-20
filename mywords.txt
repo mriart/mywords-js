@@ -12,7 +12,7 @@ barrejar, mixturejar;;blend;blend;Mix (a substance) with another substance so th
 germa o germana;;sibling;'sibling;Brother or sister.
 intent, esforç, de canviar les coses;Un intent d'eliminar la malària.;endeavour;ənˈdevər;Try hard to do or achieve something. He is endeavoring to help the Third World.
 amortitzar;;amortize;amortaiz; 
-eximir (de pagar una multa), exempció;He sigut eximit de pagar la multa.;waive (v), waiver (n);ˈweivər;I have been waived from paying the fine.
+exempció, eximir (de pagar una multa);He sigut eximit de pagar la multa.;waiver (n), waive (v);ˈweivər;I have been waived from paying the fine.
 determinar quelcom;;determine;dɪˈtəːmɪn;Cause (something) to occur in a particular way. It will be her mental attitude that determines her future.
 conquistar (en l'amor o similar);Guanyar-se la voluntat d’algú.;win over;win oʊvə;She won over me in love.
 sacsejada abrupta (en un avió p.ex.);;jolt (n, regular v);dʒəʊlt;He felt a jolt when the plane started to climb.
@@ -43,7 +43,7 @@ malvat, pervers;;nefarious;nɪˈfɛərɪəs;My nefarious stepmother tried to kee
 albada;;dawn;do:n;Helen watched the dawn as she drank her morning coffee.
 trinar (un moixonet);;trill;trɪl;The trill of a sparrow.
 pardal;;sparrow;sˈpæroʊ;Sparrow is a small bird.
-beguda fermentada (especialment cervesa), fermentar;;brew;bru;To brew means ‘to make a liquid by boiling and fermenting ingredients,’ mainly used referring to beer, ale.
-juerga, parranda;;spree;spri:The friends had a few days off work and went on a spree to the coast. Went on a shopping/spending/drinking spree. Killing spree (matança).
+beguda fermentada (especialment cervesa), fermentar;;brew;bru;To brew means to make a liquid by boiling and fermenting ingredients, mainly used referring to beer, ale.
+juerga, parranda;;spree;spri:;The friends had a few days off work and went on a spree to the coast. Went on a shopping/spending/drinking spree. Killing spree (matança).
 crossa;;crutch;krʌtʃ;Peg Leg Joe threw his crutches away.
 niu;Niu de pardals;nest;nest;Sparrow nest.
