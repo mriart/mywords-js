@@ -9,7 +9,7 @@ var file = [];
 var myWords = [];
 var myCard = [];
 var idx;
-var debug = 1;
+var debug = 0;
 
 //Return sequential card of mywords.txt
 function getSeqCard() {
