@@ -3,7 +3,7 @@ COPY main.js .
 COPY mywords.txt .
 COPY views/ /views/
 COPY package*.json ./
-COPY favicong.png .
+COPY favicon.png .
 COPY iconplus.png .
 RUN npm install
 EXPOSE 8080
