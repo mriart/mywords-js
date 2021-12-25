@@ -75,6 +75,7 @@ idx = -1;
 
 //Express, for http requests
 app.set("view engine", "ejs");
+
 app.get ("/", function (req,res) {
 	myCard = getSeqCard();
 	if (debug == 1) console.log('getSeqCard:', myCard);
@@ -82,6 +83,17 @@ app.get ("/", function (req,res) {
 	res.render("index.ejs", {lit0: myCard[0], lit1: myCard[1], lit2: myCard[2], lit3: myCard[3], lit4: myCard[4]});	
 });
 
+app.get ("/favicon.png", function (req,res) {
+	res.sendFile(__dirname + "/favicon.png");
+});
+
+app.get ("/iconplus.png", function (req,res) {
+	res.sendFile(__dirname + "/iconplus.png");
+});
+
+app.get ("/postword.html", function (req,res) {
+	res.render("postword.ejs");	
+});
 
 //Start server
 app.listen(port, function(err){
