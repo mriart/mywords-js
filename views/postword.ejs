@@ -3,8 +3,10 @@
 <head>
 <meta charset='UTF-8'>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/png" href="/favicon.png"/>
 <style class="INLINE_PEN_STYLESHEET_ID">
     @import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
 
 body {
   font-family: Open Sans;
@@ -33,10 +35,6 @@ input[type=submit] {
   cursor: pointer;
 }
 
-input[type=submit]:hover {
-  background-color: #45a049;
-}
-
 div {
   border-radius: 5px;
   background-color: #f2f2f2;
@@ -46,7 +44,7 @@ div {
 </head>
 
 <body>
-  <form action="/action_page.php">
+  <form action="/postword.html" method="post">
   <div>
     <label for="cat">Català</label>
     <input type="text" id="cat" name="cat" placeholder="Paraula en català...">

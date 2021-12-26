@@ -74,7 +74,10 @@ idx = -1;
 
 
 //Express, for http requests
-app.set("view engine", "ejs");
+app.set("view engine", "ejs");     //Use EJS views   
+app.use(express.static('public')); //Send static files like png's
+app.use(express.json());           //For POST recovery params
+app.use(express.urlencoded({ extended: true }));
 
 app.get ("/", function (req,res) {
 	myCard = getSeqCard();
@@ -83,16 +86,40 @@ app.get ("/", function (req,res) {
 	res.render("index.ejs", {lit0: myCard[0], lit1: myCard[1], lit2: myCard[2], lit3: myCard[3], lit4: myCard[4]});	
 });
 
-app.get ("/favicon.png", function (req,res) {
-	res.sendFile(__dirname + "/favicon.png");
-});
-
-app.get ("/iconplus.png", function (req,res) {
-	res.sendFile(__dirname + "/iconplus.png");
-});
-
 app.get ("/postword.html", function (req,res) {
 	res.render("postword.ejs");	
+});
+
+app.post ("/postword.html", function (req,res) {
+	const { CloudantV1 } = require('@ibm-cloud/cloudant');
+	const { IamAuthenticator } = require('ibm-cloud-sdk-core');
+	const authenticator = new IamAuthenticator({
+		apikey: 'cTcWGHggP9fzy7qixNQeX-MKd7UrVI6Jn0iZn6DvP8jP'
+	});
+	
+	const service = new CloudantV1({
+		authenticator: authenticator
+	});
+	
+	service.setServiceUrl('https://0634c5f6-50c4-47aa-81a6-f5a4dcce30ed-bluemix.cloudantnosqldb.appdomain.cloud');
+	
+	const wordDoc = {
+	  "cat": req.body.cat,
+	  "exemple": req.body.cat.exemple,
+	  "eng": req.body.eng,
+	  "pron": req.body.pron,
+	  "example": req.body.example
+	};
+		
+	service.postDocument({
+	  db: 'mywords',
+	  document: wordDoc
+	}).then(response => {
+	  console.log("\nPostDoc:");
+	  console.log(response.result);
+	});
+
+	res.redirect('/');
 });
 
 //Start server
