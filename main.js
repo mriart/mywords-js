@@ -64,19 +64,7 @@ function prob(array) {
 	return arrayOut;
 }
 
-//Initialize Cloudant connection
-const { CloudantV1 } = require('@ibm-cloud/cloudant');
-const { IamAuthenticator } = require('ibm-cloud-sdk-core');
-const authenticator = new IamAuthenticator({
-	apikey: 'cTcWGHggP9fzy7qixNQeX-MKd7UrVI6Jn0iZn6DvP8jP'
-});
-const service = new CloudantV1({
-	authenticator: authenticator
-});
-service.setServiceUrl('https://0634c5f6-50c4-47aa-81a6-f5a4dcce30ed-bluemix.cloudantnosqldb.appdomain.cloud');
-if (debug == 1) console.log('Service Cloudant', service);
-
-//Load words from file
+//Initialize
 file = fs.readFileSync('./mywords.txt').toString().split('\n');
 file.pop(); //Removes last empty line
 if (debug == 1) console.log('Load of mywords.txt, file:', file);
@@ -103,7 +91,19 @@ app.get ("/postword", function (req,res) {
 	res.render("postword.ejs");	
 });
 
+/* Postword into Cloudant
 app.post ("/postword", function (req,res) {
+	const { CloudantV1 } = require('@ibm-cloud/cloudant');
+	const { IamAuthenticator } = require('ibm-cloud-sdk-core');
+	const authenticator = new IamAuthenticator({
+		apikey: 'see Cloudant-7b at IBM Cloud'
+	});
+	const service = new CloudantV1({
+		authenticator: authenticator
+	});
+	service.setServiceUrl('https://0634c5f6-50c4-47aa-81a6-f5a4dcce30ed-bluemix.cloudantnosqldb.appdomain.cloud');
+	if (debug == 1) console.log('Service Cloudant', service);
+	
 	const wordDoc = {
 	  "cat": req.body.cat,
 	  "exemple": req.body.cat.exemple,
@@ -122,6 +122,18 @@ app.post ("/postword", function (req,res) {
 
 	res.redirect('/');
 });
+*/
+
+//Postword sending an email to mriart@gmail.com from mriart@mywords.io
+app.post ("/postword", function (req,res) {
+	var sendmail = require('sendmail')({silent: true})
+	sendmail({from: 'mriart@mywords.io', to: 'mriart@gmail.com', subject: "New word: " + req.body.cat + " / " + req.body.eng}, function (err, reply) {
+  			console.log(err && err.stack)
+  			console.dir(reply)
+	});
+	res.redirect('/');	
+});
+
 
 //Start server
 app.listen(port, function(err){
