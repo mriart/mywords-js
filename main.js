@@ -64,10 +64,23 @@ function prob(array) {
 	return arrayOut;
 }
 
-//Initialize
+//Initialize Cloudant connection
+const { CloudantV1 } = require('@ibm-cloud/cloudant');
+const { IamAuthenticator } = require('ibm-cloud-sdk-core');
+const authenticator = new IamAuthenticator({
+	apikey: 'cTcWGHggP9fzy7qixNQeX-MKd7UrVI6Jn0iZn6DvP8jP'
+});
+const service = new CloudantV1({
+	authenticator: authenticator
+});
+service.setServiceUrl('https://0634c5f6-50c4-47aa-81a6-f5a4dcce30ed-bluemix.cloudantnosqldb.appdomain.cloud');
+if (debug == 1) console.log('Service Cloudant', service);
+
+//Load words from file
 file = fs.readFileSync('./mywords.txt').toString().split('\n');
 file.pop(); //Removes last empty line
 if (debug == 1) console.log('Load of mywords.txt, file:', file);
+
 myWords = shuffle(prob(file)); 
 if (debug == 1) console.log("myWords: ", myWords);
 idx = -1;
@@ -86,23 +99,11 @@ app.get ("/", function (req,res) {
 	res.render("index.ejs", {lit0: myCard[0], lit1: myCard[1], lit2: myCard[2], lit3: myCard[3], lit4: myCard[4]});	
 });
 
-app.get ("/postword.html", function (req,res) {
+app.get ("/postword", function (req,res) {
 	res.render("postword.ejs");	
 });
 
-app.post ("/postword.html", function (req,res) {
-	const { CloudantV1 } = require('@ibm-cloud/cloudant');
-	const { IamAuthenticator } = require('ibm-cloud-sdk-core');
-	const authenticator = new IamAuthenticator({
-		apikey: 'cTcWGHggP9fzy7qixNQeX-MKd7UrVI6Jn0iZn6DvP8jP'
-	});
-	
-	const service = new CloudantV1({
-		authenticator: authenticator
-	});
-	
-	service.setServiceUrl('https://0634c5f6-50c4-47aa-81a6-f5a4dcce30ed-bluemix.cloudantnosqldb.appdomain.cloud');
-	
+app.post ("/postword", function (req,res) {
 	const wordDoc = {
 	  "cat": req.body.cat,
 	  "exemple": req.body.cat.exemple,
@@ -112,11 +113,11 @@ app.post ("/postword.html", function (req,res) {
 	};
 		
 	service.postDocument({
-	  db: 'mywords',
-	  document: wordDoc
+		db: 'mywords',
+		document: wordDoc
 	}).then(response => {
-	  console.log("\nPostDoc:");
-	  console.log(response.result);
+		console.log("\nPostDoc:");
+		console.log(response.result);
 	});
 
 	res.redirect('/');
