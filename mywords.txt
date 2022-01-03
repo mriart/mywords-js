@@ -62,3 +62,6 @@ estar familiaritzat amb;Estic familiaritzat amb la cultura grega o amb fulano.;t
 pícaro, murri;;rogue;rəʊg;Rogue one.
 presuntament;;allegedly;əˈlɛdʒɪdli;He allegedly made bribery paying a present.
 la vetlla (víspera);;eve;iv;Christmas Eve (the day before Christmas) and New Year’s Eve (the day before New Year’s Day).
+boia (náutica);;buoy;bɔɪ:A buoy is a floating marker.
+cunya de falcar;;wedge;wɛdʒ;Polly pushed a wedge under the door to hold it open.
+abocador (basurero), tirar (de patac, a lo bèstia);;dump;dʌmp;Core dump.
