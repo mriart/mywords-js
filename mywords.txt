@@ -49,7 +49,7 @@ crossa;;crutch;krʌtʃ;Peg Leg Joe threw his crutches away.
 niu;Niu de pardals;nest;nest;Sparrow nest.
 llumí, "misto";;match;mætʃ;
 portador;;bearer;ˈbɛərə;I hate to be the bearer of bad news.
-ràbia;;rage;reɪdʒ;Raig against the machine.
+ràbia;;rage;reɪdʒ;Rage against the machine.
 feble de salut o forces;Estava feble després de la covid.;feeble;ˈfibəl;Physically weak because of age or sickness. The patient was still feeble after her illness.
 engany, farsa (a un colecitu, política);;humbug;ˈhʌmbʌg;The government's policy was nothing but a humbug. They lied us.
 carn picada;;mince;mɪns;Tom bought some fresh mince from the butcher, minced by Karen.
@@ -62,6 +62,6 @@ estar familiaritzat amb;Estic familiaritzat amb la cultura grega o amb fulano.;t
 pícaro, murri;;rogue;rəʊg;Rogue one.
 presuntament;;allegedly;əˈlɛdʒɪdli;He allegedly made bribery paying a present.
 la vetlla (víspera);;eve;iv;Christmas Eve (the day before Christmas) and New Year’s Eve (the day before New Year’s Day).
-boia (náutica);;buoy;bɔɪ:A buoy is a floating marker.
+boia (náutica);;buoy;bɔɪ;A buoy is a floating marker.
 cunya de falcar;;wedge;wɛdʒ;Polly pushed a wedge under the door to hold it open.
 abocador (basurero), tirar (de patac, a lo bèstia);;dump;dʌmp;Core dump.
