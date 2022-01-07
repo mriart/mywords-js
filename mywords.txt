@@ -66,3 +66,6 @@ boia (náutica);;buoy;bɔɪ;A buoy is a floating marker.
 cunya de falcar;;wedge;wɛdʒ;Polly pushed a wedge under the door to hold it open.
 abocador (basurero), tirar (de patac, a lo bèstia);;dump;dʌmp;Core dump.
 insignificant;;petty;ˈpɛti;Tom Petty.
+àgil;;agile|nimble;ˈædʒaɪl|ˈnɪmbəl;IBM is a nimbler enterprise now.
+hàbil;;skillful(in general)|deft(physically);ˈskɪlfʊl|dɛft;With a deft hand, Alicia quickly mended the sock.
+àcid;;sour;ˈsaʊə;Lemon is sour.
