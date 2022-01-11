@@ -72,3 +72,5 @@ hàbil;;skillful | deft (physical);ˈskɪlfʊl | dɛft;With a deft hand, Alicia 
 brillar;;shine|glow;ʃaɪn|gloʊ;The sun is shining or glowing.
 taça (de llet, gran i recta);;mug;mʌg;Large cup with handle.
 un que és poc favorit;;underdog;ʌndərdɒg;It was a surprise to everyone when the underdog won the match.
+armadura;;armor;ˈɑːrmər;In the Middle Ages, knights wore armor in tournaments.
+
