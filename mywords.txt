@@ -76,3 +76,5 @@ armadura;;armor;ˈɑːrmər;In the Middle Ages, knights wore armor in tournament
 maldestre, "torpe";;clumsy;ˈklʌmzi;
 incòmoda, inoportuna (situació);Vaig tenir una conversa incòmoda amb la ex.;awkward;ˈɔːkwərd;	I had an awkward conversation with my ex-girlfriend.
 créixer;;grow, grew, grown;groʊ, gruː, groʊn;
+laberint;;maze;meɪz;It is a maze.
+canela;;cinnamon;ˈsɪnəmən;Cinnamon toast are known as "torradetes de Santa Teresa".
