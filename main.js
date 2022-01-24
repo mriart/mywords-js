@@ -60,6 +60,9 @@ function prob(array) {
 		j++;
 		arrayOut[j] = array[i];
 		j++;
+		arrayOut[j] = array[i];
+		j++;
+
 	}
 	return arrayOut;
 }
