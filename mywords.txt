@@ -81,4 +81,6 @@ canela;;cinnamon;ˈsɪnəmən;Cinnamon toast are known as "torradetes de Santa T
 monstre, gegant (figuratiu);IBM és un monstre de companyia.;behemoth;bɪˈhi:məθ;A huge or monstrous creature. IBM is a behemoth company.
 indignant;Un comportament indignant;outrageous;aʊtˈreɪdʒəs;John was rude and his behaviour was outrageous.
 caure en picat, desplomar-se (també figuratiu);El preu s'ha desplomat;plummet;ˈplʌmɪt;The company's sales have plummeted this year. The airplane has plummeted.
-de recanvi;Una roda de recanvi;spare;spɛr;A spare tyre.
+de recanvi;Una roda de recanvi.;spare;spɛr;A spare tyre.
+violar;Violar una llei. O sexualment.;rape;reɪp;Rape is a crime that severely traumatises its victims.
+endreçat;;tidy;ˈtaɪdi;A tidy house.
