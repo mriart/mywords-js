@@ -86,3 +86,4 @@ violar;Violar una llei. O sexualment.;rape;reɪp;Rape is a crime that severely t
 endreçat;;tidy;ˈtaɪdi;A tidy house.
 bonificació (sobre algo ja comprat);;rebate;ˈriːbeɪt;A partial refund to someone who has paid too much money for tax, rent, or a utility.
 pecador;;sinner;sɪnə;
+rarament, quasi mai;;seldom;ˈsɛldəm;John is self-employed and seldom takes holidays.
