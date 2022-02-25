@@ -44,17 +44,19 @@ function shuffle(array) {
 function prob(array) {
 	var j = 0;
 	var arrayOut = [];
-	for (i=0; i<Math.floor(array.length/3); i++) {
+	var arrLen = array.length;
+
+	for (i=0; i<Math.floor(arrLen/3); i++) {
 		arrayOut[j] = array[i];
 		j++;
 	}
-	for (i=Math.floor(array.length/3); i<Math.floor(array.length/3)*2; i++) {
+	for (i=Math.floor(arrLen/3); i<Math.floor(arrLen/3)*2; i++) {
 		arrayOut[j] = array[i]; 
 		j++;
 		arrayOut[j] = array[i];
 		j++;
 	}
-	for (i=Math.floor(array.length/3)*2; i<array.length; i++) {
+	for (i=Math.floor(arrLen/3)*2; i<arrLen; i++) {
 		arrayOut[j] = array[i]; 
 		j++;
 		arrayOut[j] = array[i];
