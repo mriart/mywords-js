@@ -40,6 +40,7 @@ function shuffle(array) {
   
 //Insufle probabilities to array. The first 33% is normal, up to 66% double probabilities, the rest the triple.
 //That is because I want the latest entries in mywords.txt, appears more times in the quiz.
+//Also, start with last 5 introduced words, as a kind of study.
 function prob(array) {
 	var j = 0;
 	var arrayOut = [];
@@ -60,10 +61,10 @@ function prob(array) {
 		j++;
 		arrayOut[j] = array[i];
 		j++;
-		arrayOut[j] = array[i];
-		j++;
-
 	}
+	
+	arrayOut = shuffle(arrayOut);
+	arrayOut.unshift(array[arrLen-1], array[arrLen-2], array[arrLen-3], array[arrLen-4], array[arrLen-5]);
 	return arrayOut;
 }
 
@@ -72,7 +73,7 @@ file = fs.readFileSync('./mywords.txt').toString().split('\n');
 file.pop(); //Removes last empty line
 if (debug == 1) console.log('Load of mywords.txt, file:', file);
 
-myWords = shuffle(prob(file)); 
+myWords = prob(file); 
 if (debug == 1) console.log("myWords: ", myWords);
 idx = -1;
 
