@@ -99,3 +99,5 @@ remordiment;;remorse;rɪˈmɔːs;Deep regret or guilt for a wrong committed.
 detallar amb precisió;Difíci determinar amb precisió l'origen de l'error.;pinpoint;ˈpɪnpɔɪnt;It is difficult to pinpoint exactly the root cause.
 crani;;skull;skʌl;Edward hit his head when he fell and fractured his skull.
 aparentment;;seemingly;ˈsimɪŋli;Richard's little boy is seemingly very obedient; I wonder if he's always so well behaved at home.
+el "truquillo";La porta pot ser difícil d'obrir si no saps el truquillo.;knack;næk;This door can be difficult to unlock if you don't know the knack.
+
