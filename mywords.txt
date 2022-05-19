@@ -101,3 +101,4 @@ crani;;skull;skʌl;Edward hit his head when he fell and fractured his skull.
 aparentment;;seemingly;ˈsimɪŋli;Richard's little boy is seemingly very obedient; I wonder if he's always so well behaved at home.
 el "truquillo";La porta pot ser difícil d'obrir si no saps el truquillo.;knack;næk;This door can be difficult to unlock if you don't know the knack.
 estafa;;con;kon;You are running a con.
+empat;Ho declaro un empat.;tie;taɪ;I rule it a tie. Tie break.
