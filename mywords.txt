@@ -104,3 +104,4 @@ estafa;;con;kon;You are running a con.
 empat;Ho declaro un empat.;tie;taɪ;I rule it a tie. Tie break.
 frustrar;Frustrar l'operació;thwart;θwɔrt;The guards thwarted an attempt to invade the citadel.
 còmplice;;accomplice;əˈkʌmplɪs;One thief was caught but her accomplices got away.
+gasela;Animal africà i símbol rugby Sudàfirca.;springbok;s'prɪŋbʌk;The Springboks, South African Rugby national team.
